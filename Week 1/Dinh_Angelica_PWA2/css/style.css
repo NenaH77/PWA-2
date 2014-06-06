@@ -1,0 +1,173 @@
+html, body{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+    margin: 1px;
+    padding: 2px;
+}
+header{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+input[type="email"], input[type="confirm"], input[type="password"], input[type="text"], input[type="confirmpass"], textarea {
+    border: 1px solid #1b1464;
+    border-radius: 2px;
+    box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4) inset;
+}
+input[type="email"], input[type="confirm"], input[type="password"], input[type="text"], input[type="confirmpass"], textarea {
+    height: 19px;
+}
+textarea {
+    resize: none;
+}
+button, input[type="button"], .button {
+    border: 1px solid #999999;
+    border-radius: 2px;
+    color: #444444;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    white-space: nowrap;
+}
+button:hover, input[type="button"]:hover, .button:hover {
+    color: #000000;
+}
+button:active, input[type="button"]:active, .button:active {
+    background: none repeat scroll 0 0 #5C90CB;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.4) inset;
+    color: #000000;
+}
+input[type="submit"], .button-submit {
+    border: medium none;
+    border-radius: 2px;
+    color: #444444;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    white-space: nowrap;
+}
+input[type="submit"]:hover, .button-submit:hover {
+    color: #000000;
+}
+input[type="submit"]:active, .button-submit:active {
+    background: none repeat scroll 0 0 #5C90CB;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.4) inset;
+}
+a {
+}
+a:hover {
+}
+a:active {
+}
+
+#smallheader_logo{
+    margin-left: 20px;
+}
+#header_login{
+    float: right;
+    margin-right: 20px;
+    margin-top: -100px;
+}
+
+#logoutForm{
+    float: right;
+    margin-right: 200px;
+    margin-top: -80px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+
+/*********** Welcome Page **************/
+
+h1{
+    font-family: "Baskerville", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3f74ae;
+}
+p {
+    color: #1b1464;
+}
+
+h2{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #cea1de;
+    margin-left: 400px;
+}
+
+button.button-submit {
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -40px;
+}
+
+.feature {
+    float: left;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/*********** Registration Page **************/
+
+#container{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+fieldset{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    background: #c7b162;
+    border-radius: 10px;
+    border: 3px solid #1b1464;
+    font-size: 18px;
+}
+
+.field{
+    padding: 7px 0;
+}
+
+/*********** Admin Page **************/
+
+.box{
+    border: 3px solid #3f74ae;
+    padding: 13px;
+    margin: 2px;
+}
+.icon-delete{
+    float: right;
+    margin-top: -20px;
+}
+
+.left{
+    padding: 2px;
+}
+
+.projectName{
+    padding: 2px;
+    margin: 1px;
+}
+.projectDescription{
+    padding: 2px;
+    margin: 2px;
+}
+.right{
+    float: right;
+    margin-top: -60px;
+    margin-right: 50px;
+
+}
+
