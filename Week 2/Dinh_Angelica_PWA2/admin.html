@@ -1,0 +1,88 @@
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Admin/Dashboard</title>
+	<meta name="description" content="Milestone1:Project">
+	<meta name="author" content="Angelica M. Dinh">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<!-- end CSS-->
+	
+</head>
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <div id="smallheader_logo">
+                    <div class="header-icon"></div>
+                    <img src="images/SmallTimeLogo.gif">
+                </div>
+                <div id="header_logout">
+                    <form id="logoutForm">
+                        <span id="header_user">Username</span>
+                        <button id="header_logoutbtn">Log Out</button>
+                    </form>
+                </div>
+            </header>
+
+        <div id="container">
+            <div class="titleName">
+                <h1>My Project</h1>
+            </div>
+            <section class="box">
+                <div class="project_title">Project</div>
+                <span class="icon-delete">x</span>
+
+
+            <div class="left">
+                <label>Project Name</label><input class="projectName" type="text"/><br>
+                <label>Project Description</label><input class="projectDescription" type="text"/><br>
+                <button>Save</button>
+            </div>
+
+            <div class="right">
+                <label>Due Date</label><input class="dueDate" type="text"/>
+            </div>
+            </section>
+        </div>
+        </div>
+
+        <!-- jquery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- plugins -->
+
+	
+	<!-- main -->
+	<script type="text/javascript" src="js/main.js"></script>
+  
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
