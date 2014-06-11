@@ -84,6 +84,19 @@ a:active{
     width: 960px;
 }
 
+/*********** ToolTips **************/
+.tooltip{
+    display: none;
+    position: absolute;
+    border: 2px solid #cea1de;
+    background-color: #3f74ae;
+    border-radius: 8px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
 /*********** Welcome Page **************/
 
 h1{
@@ -104,7 +117,7 @@ h2{
     margin-left: 400px;
 }
 
-button.button-submit {
+input[name=regbtn] {
     position: absolute;
     margin-left: -400px;
     margin-top: -40px;
@@ -176,8 +189,9 @@ fieldset{
 #backgroundOverlay{
     width: 100%;
     height: 100%;
+    /*background: rgba(63, 116, 174, .5);*/
     background: #3f74ae;
-    opacity: .5;
+    opacity: .2;
     position: absolute;
     top: 0;
     left: 0;
