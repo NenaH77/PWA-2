@@ -155,33 +155,28 @@ fieldset{
 
 /*********** Admin Page **************/
 
-.box{
-    border: 3px solid #3f74ae;
-    padding: 13px;
-    margin: 2px;
-}
-.icon-delete{
-    float: right;
-    margin-top: -20px;
+.mytabs{
+    width: 760px;
+    background: #3f74ae;
+    padding: 10px;
 }
 
-.left{
-    padding: 2px;
+.tabs li{
+    list-style: none;
+    display: inline;
 }
 
-.projectName{
-    padding: 2px;
-    margin: 1px;
+.tabs a{
+    padding: 5px 10px;
+    display: inline-block;
+    background: #c7b162;
+    color: #1b1464;
+    text-decoration: none;
 }
-.projectDescription{
-    padding: 2px;
-    margin: 2px;
-}
-.right{
-    float: right;
-    margin-top: -60px;
-    margin-right: 50px;
 
+.tabs a:active{
+    background: #cea1de;
+    color: #3f74ae;
 }
 
 /*********** Project Page **************/
