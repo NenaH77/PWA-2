@@ -1,0 +1,279 @@
+html, body{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+    margin: 1px;
+    padding: 2px;
+}
+header{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+input[type="email"], input[type="confirm"], input[type="password"], input[type="text"], input[type="confirmpass"], textarea {
+    border: 1px solid #1b1464;
+    border-radius: 2px;
+    box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.4) inset;
+}
+input[type="email"], input[type="confirm"], input[type="password"], input[type="text"], input[type="confirmpass"], textarea {
+    height: 19px;
+}
+textarea{
+    resize: none;
+}
+button, input[type="button"], .button{
+    border: 1px solid #999999;
+    border-radius: 2px;
+    color: #444444;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    white-space: nowrap;
+}
+button:hover, input[type="button"]:hover, .button:hover{
+    color: #000000;
+}
+button:active, input[type="button"]:active, .button:active{
+    background: none repeat scroll 0 0 #5C90CB;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.4) inset;
+    color: #000000;
+}
+input[type="submit"], .button-submit{
+    border: medium none;
+    border-radius: 2px;
+    color: #444444;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    white-space: nowrap;
+}
+input[type="submit"]:hover, .button-submit:hover{
+    color: #000000;
+}
+input[type="submit"]:active, .button-submit:active{
+    background: none repeat scroll 0 0 #5C90CB;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.4) inset;
+}
+a {
+}
+a:hover{
+}
+a:active{
+}
+
+#smallheader_logo{
+    margin-left: 20px;
+}
+#login{
+    float: right;
+    margin-right: 20px;
+    margin-top: -100px;
+}
+
+#logoutForm{
+    float: right;
+    margin-right: 200px;
+    margin-top: -80px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+
+/*********** ToolTips **************/
+.tooltip{
+    display: none;
+    position: absolute;
+    border: 2px solid #cea1de;
+    background-color: #3f74ae;
+    border-radius: 8px;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+/*********** Welcome Page **************/
+
+h1{
+    font-family: "Baskerville", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3f74ae;
+}
+p {
+    color: #1b1464;
+}
+
+h2{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #cea1de;
+    margin-left: 400px;
+}
+
+input[name=regbtn] {
+    position: absolute;
+    margin-left: -400px;
+    margin-top: -40px;
+}
+
+.feature {
+    float: left;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+/*********** Registration Page **************/
+
+#container{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+fieldset{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    background: #c7b162;
+    border-radius: 10px;
+    border: 3px solid #1b1464;
+    font-size: 18px;
+}
+
+.field{
+    padding: 7px 0;
+}
+
+/*********** Admin Page **************/
+
+.mytabs{
+    width: 760px;
+    background: #3f74ae;
+    padding: 10px;
+}
+
+.tabs li{
+    list-style: none;
+    display: inline;
+}
+
+.tabs a{
+    padding: 5px 10px;
+    display: inline-block;
+    background: #c7b162;
+    color: #1b1464;
+    text-decoration: none;
+}
+
+.tabs a:active{
+    background: #cea1de;
+    color: #3f74ae;
+}
+
+/*********** Project & Modal Page **************/
+
+.modalClick{
+    padding: 5px;
+    text-decoration: none;
+}
+
+#backgroundOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(63, 116, 174, .5);
+    /*background: #3f74ae;
+    opacity: .2;******* commented out because it didn't work correctly */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+#modalBox{
+    width: 500px;
+    padding-bottom: 15px;
+    background: #c7b162;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    z-index: 1001;
+    /*display: none;*/
+}
+
+#modalBox .header{
+    background: #1b1464;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#modalBox p{
+    margin: 15px;
+}
+
+#modalBox .close{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #1b1464;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+form{
+    padding: 10px;
+}
+
+form .input{
+    padding: 20px;
+}
+
+header{
+    width: 960px;
+}
+
+.mystatus > input[type=radio]{
+   display: none;
+}
+
+input[type=radio] + img{
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+input[type=radio]:checked + img{
+    border: 2px solid #1b1464;
+}
+
+
+/*********** Add Page **************/
+
+#addForm{
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    background: #c7b162;
+    border-radius: 10px;
+    border: 3px solid #1b1464;
+    font-size: 18px;
+}
