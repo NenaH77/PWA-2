@@ -48,9 +48,9 @@
             data: {
                 first_name:firstname,
                 last_name: lastname,
-                user_n: username,
+                username: username,
                 email: email,
-                user_p: password
+                password: password
             },
             success: function(response){
                 if(response.error){
