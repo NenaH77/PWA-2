@@ -112,10 +112,10 @@
 
                          $('.projects').append(//pulling projects by id of 'class' and appending(adding css) tags below
                              '<div style="border:1px solid black">' +
-                             "<input class='projectid' type='hidden' value=' " +result.id + "'>"+//hiding projectid. pulling result.id from database
+                             "<input class='projectid' type='hidden' value='" +result.id + "'>"+//hiding projectid. pulling result.id from database
                              "Project Name: " + result.projectName + "<br>" + //cancatenate project name with result.projectName which is also being pulled by the database
                              "Project Description: " + result.projectDescription + "<br>" +
-                             "Project Status: " + result.status + "<br>" +
+                             "Project Status: " + result.status + "<br>"
 
                              + '<button class="deletebtn">Delete</button>'
                              + '<button class="editbtn">Edit</button>'
@@ -265,7 +265,7 @@ projects();//close var projects
 
     /* ============= Logout ======================================= */
 
-    $('#header_logoutbtn').click(function(e){
+    $('#logOut').click(function(e){
         e.preventDefault;
         $.get('xhr/logout.php', function(){
             window.location.assign('welcome.html');
