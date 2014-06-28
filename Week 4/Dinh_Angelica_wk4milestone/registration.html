@@ -1,0 +1,116 @@
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Registration</title>
+	<meta name="description" content="Milestone4:project">
+	<meta name="author" content="Angelica M. Dinh">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css?v=1">
+
+    <!-- CSS UI plugin-->
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.css">
+    <!-- end CSS-->
+	
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="smallheader_logo">
+                <div class="header-icon"></div>
+                <img src="images/SmallTimeLogo.gif">
+            </div>
+            <div id="header_logout">
+                <form id="logoutForm">
+                    <div class="userid">Username</div>
+                    <button class="admin">Admin</button>
+                    <button class="profile">Profile</button>
+                    <input name="logOut" type="button" id="logOut" value="Sign Out" />
+                </form>
+            </div>
+        </header>
+
+        <div id="container">
+        <h1>Sign Up Today!</h1>
+            <fieldset class="signUp">
+                <div id="join">
+                    <div class="field">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" name="first-name" id="first" class="masterTooltip" title="Enter Your First Name" placeholder="John"  />
+                    </div>
+                    <div class="field">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" name="last-name" id="last" class="masterTooltip" title="Enter Your Last Name" placeholder="Doe"  />
+                    </div>
+                    <div class="field">
+                        <label for="user-name">Username:</label>
+                        <input type="text" id="userName" name="user-name" class="masterTooltip" title="Enter Your Username" placeholder="jdoe123" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="masterTooltip" title="Enter Your Email" placeholder="jdoe123@gmail.com" required>
+                    </div>
+                    <div class="field">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="masterTooltip" title="Password" placeholder="8 characters" required>
+                    </div>
+                    <div class="field">
+                        <label for="pass-confirm">Confirm Password:</label>
+                        <input type="password" id="pass-confirm" name="pass-confirm" class="masterTooltip" title="Confirm Password" placeholder="8 characters" required>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" required><p>I agree to the following <a href="#">terms</a> of Web Site</p>
+                    </div>
+
+                    <div class="field">
+                        <button type="submit" id="register">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id='footer'>
+        <a href='contactus.html'>Contact Us</a> | <a href='connect.html'>Connect with Us</a> | <p> created by Angelica M. Dinh  &copy; 2014 </p>
+    </div>
+
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- plugins -->
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.10.4.custom.js"></script>
+
+    <!-- main -->
+    <script type="text/javascript" src="js/main.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

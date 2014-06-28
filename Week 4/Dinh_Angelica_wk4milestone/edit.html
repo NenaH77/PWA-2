@@ -1,0 +1,94 @@
+<!doctype html>
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Edit Project</title>
+    <meta name="description" content="Milestone2:Project">
+    <meta name="author" content="Angelica M. Dinh">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/style.css?v=1">
+
+    <!-- CSS UI plugin-->
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.10.4.custom.css">
+    <!-- end CSS-->
+
+</head>
+
+<body>
+<div id="wrapper">
+    <header>
+        <div id="smallheader_logo">
+            <div class="header-icon"></div>
+            <img src="images/SmallTimeLogo.gif" alt="smallLogo"/>
+        </div>
+        <div id="header_logout">
+            <form id="logoutForm">
+                <div class="userid">Username</div>
+                <button class="admin">Admin</button>
+                <input name="logOut" type="button" id="logOut" value="Sign Out" />
+            </form>
+        </div>
+    </header>
+
+    <div id="container">
+        <h1>Edit Project</h1>
+        <form id="editForm">
+            <label>Project Name:</label>
+            <input name="eProjectName" type="text" id="eProjectName" /><br>
+            <label>Project Description:</label>
+            <input name="eProjectDescription" type="text" id="eProjectDescription" /><br>
+            <label>Project Due Date:</label>
+            <input name="eProjectDueDate" type="text" id="eProjectDueDate" /><br>
+            <label>Project Status:</label>
+            <input name="eprojectStatus" type="text" id="eprojectStatus" /><br>
+            <input name="saveButton" type="button" id="saveButton" value="Save" /><br>
+        </form>
+    </div>
+
+
+    <div id='footer'>
+        <a href='contactus.html'>Contact Us</a> | <a href='connect.html'>Connect with Us</a> | <p> created by Angelica M. Dinh  &copy; 2014 </p>
+    </div>
+
+
+
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <!-- plugins -->
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.10.4.custom.js"></script>
+
+    <!-- main -->
+    <script type="text/javascript" src="js/main.js"></script>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
