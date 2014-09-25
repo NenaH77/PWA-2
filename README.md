@@ -1,2 +1,2 @@
-PWA-2
+Programming for Web Applications 2
 =====
